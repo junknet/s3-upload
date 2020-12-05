@@ -1,3 +1,4 @@
+mod fib_retry;
 mod s3;
 use prometheus::{Counter, Encoder, Opts, Registry, TextEncoder};
 
