@@ -1,0 +1,17 @@
+[package]
+name = "color"
+version = "0.1.0"
+authors = ["junknet"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3"
+anyhow="1.0.34"
+tokio={version="0.3",features=["full"]}
+pretty_env_logger="0.4.0"
+log="0.4.11"
+lazy_static="1.4.0"
+prometheus="0.11.0"
+async-trait="0.1.42"
